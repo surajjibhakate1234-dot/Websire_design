@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js / Build outputs
+.next/
+out/
+build/
+dist/
+coverage/
+
+# Environment & Secrets (never commit)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug & Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Testing
+playwright-report/
+test-results/
+.vitest/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# Blender backup files
+*.blend1
+*.blend2
+
+# Large raw/working 3D assets (keep originals locally / LFS / external storage; never expose publicly)
+# Uncomment if raw assets exceed Git repository limits:
+# assets/original/*
+# !assets/original/.gitkeep
+# !assets/original/README.md
